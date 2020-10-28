@@ -38,8 +38,10 @@ i{
 .header{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url("../images/header-bg.jpg");
+    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)),url("https://cdn.pixabay.com/photo/2015/10/12/15/18/clothing-store-984396_1280.jpg");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
 }
@@ -448,6 +450,13 @@ i{
         position: relative;
         left: 10px;
     }
+}
+
+/***************************************************Futher Addition*******************/
+.main-logo{
+    width: 20rem;
+    height: 9rem;
+    margin-bottom: 5rem;
 }
 
 
