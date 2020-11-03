@@ -81,7 +81,7 @@
                     <p>Prevailing Style of dress or behavior at any given time, with the strong implication that fashion is characterized by change</p>
                 </div>
                 <div class="extra-div col-lg-4 col-md-4 col-12">
-                    <img src="images/textile.jpg" alt="">
+                    <img src="images/textile.jpg" alt="" width="280" class="mat">
                     <h2>TEXTILE DESIGN</h2>
                     <p>Planning and Producing a fabric's appearance and structure which Deals with the designs that are woven or knitted into cloth or printed on fabric</p>
                 </div>
@@ -481,34 +481,11 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
     <script src="jquery.counterup.min.js"></script>
+    <script src="app.js"></script>
     <script>
         $('.count').counterUp({
             delay: 10,
             time: 3000
-        });
-
-        myButton = document.getElementById("myBtn");
-        window.onscroll = function () {
-            scrollFunction();
-        };
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                myButton.style.display = "block";
-            } else {
-                myButton.style.display = "none";
-            }
-        }
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-        const wrapper = document.querySelector('.header-extradiv');
-        const wrapperDesigners = document.querySelector('#clientdiv');
-        wrapper.addEventListener('click', (event) => {
-            window.location.href = "#clientdiv"
-        }); 
-        wrapperDesigners.addEventListener('click', function(event){
-            window.location.href = "#pricingdiv";
         });
     </script>
 </body>

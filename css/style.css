@@ -451,7 +451,12 @@ i{
         left: 10px;
     }
 }
+@media (max-width:384px){
+    .mat{
+        width: 40%;
+    }
 
+}
 /***************************************************Futher Addition*******************/
 .main-logo{
     width: 20rem;
